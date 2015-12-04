@@ -26,11 +26,13 @@ nav a{
 }
 nav{
      background-color: azure;
+    clear: both;
 }
 .title{
     background-color: gainsboro;
     border-radius: 6px;
     font-family: "Dosis", sans-serif;
+        box-shadow: 0 0 3px 5px #000000;
 }
 li{
     list-style-position: inherit;
@@ -91,6 +93,7 @@ textarea{
 }
 fieldset{
     border-radius: 10px;
+        box-shadow: 0 0 3px 5px #000000;
 }
 .sub{
     float: right;
