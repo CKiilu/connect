@@ -1,0 +1,56 @@
+@import url();
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    text-align: center;
+    background-image: url(mountainlayers.jpg);
+    font-size: 20px;
+    margin: 0 0;
+}
+p{
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size-adjust: auto;
+}
+nav a{
+    font-size: 30px;
+    color: darkslategrey;
+    padding: 5px;
+}
+nav{
+     background-color: azure;
+}
+.title{
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+li{
+    list-style-position: inherit;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.folio{
+    width: auto;
+    height: 150px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-size: 24px;
+    width: 100%;
+}
+header{
+    background-color: darkslategrey;
+    color: azure;
+    top: 0;
+    width: 100%;
+    position: relative;    
+}
