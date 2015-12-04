@@ -1,4 +1,4 @@
-@import url();
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif|Dosis:800|Dynalight);
 
 *,
 *:before,
@@ -11,10 +11,11 @@ body{
     background-image: url(mountainlayers.jpg);
     font-size: 20px;
     margin: 0 0;
+    font-family: "Droid Serif", serif;
 }
 p{
-    background-color: cadetblue;
-    border-radius: 10px;
+    
+    border-radius: 6px;
     color: aliceblue;
     font-size-adjust: auto;
 }
@@ -28,13 +29,14 @@ nav{
 }
 .title{
     background-color: gainsboro;
-    border-radius: 10px;
+    border-radius: 6px;
+    font-family: "Dosis", sans-serif;
 }
 li{
     list-style-position: inherit;
     text-align: center;
-    background-color: cadetblue;
-    border-radius: 10px;
+    
+    border-radius: 6px;
     color: aliceblue;
 }
 .folio{
@@ -46,11 +48,52 @@ footer{
     color: aliceblue;
     font-size: 24px;
     width: 100%;
+    font-family: "Dynalight", cursive;
+    clear: both;
 }
 header{
     background-color: darkslategrey;
     color: azure;
     top: 0;
     width: 100%;
-    position: relative;    
+    position: relative;  
+    font-family: "Dosis", sans-serif;
+}
+form{
+    text-align: justify;
+    width: 720px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    height: auto;
+    float: auto;
+    margin: 0 auto;
+        color: azure;
+
+}
+textarea{
+    height: 100px;
+    width: 480px;
+    float: left;
+        
+}
+.main{
+    float: left;
+    clear: left;
+    width:  55%;
+}
+.list{
+    float: right;
+    clear: right;
+    width: 40%;
+}
+.clear{
+    clear: both;
+}
+fieldset{
+    border-radius: 10px;
+}
+.sub{
+    float: right;
+    width: 70px;
+    height: 40px;
 }

@@ -18,12 +18,12 @@
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
-        <section>
+        <section class="main">
             <a name="about"><h2 class="title">About</h2></a>
             <p>Connect is a web design agency founded to create beautiful interactive websites which users can enjoy to use.<br/>
             At Connect projects are worked on with their purpose in mind so that the client&apos;s message is understood by the user.</p>
         </section>
-        <section>
+        <section class="list">
             <a name="services"><h2 class="title">Services</h2></a>
             <p>The following services are offered by our agency:</p>
             <ol>
@@ -34,7 +34,7 @@
                 <li>Website redesign</li>
             </ol>
         </section>
-        <section>
+        <section class="list">
             <a name="team"><h2 class="title">Team</h2></a>
             <p>Our team is comprised of:</p>
             <ul>
@@ -46,7 +46,7 @@
                 <li>James Koech - Graphic Design</li>
             </ul>
         </section>
-        <section>
+        <section class="main">
             <a name="portfolio"><h2 class="title">Portfolio</h2></a>
             <p>Below is the project our agency has completed so far. The objective was to create an application to host African short stories. Click <a href="amkastories.bitballoon.com">here</a> to view the site. </p>
             <img class="folio"src="shot-20151204-1874-1gye3ed.jpeg">
@@ -54,9 +54,22 @@
             <img class="folio"src="shot-20151204-1874-1689s2q.jpeg">
            <p>Other projects will be uploaded upon completion or can be viewed <a href="https://github.com/CKiilu">here</a>. </p>
         </section>
-        <section>
-            <a name="contact"><h2 class="title">Contact</h2></a>
+        <section class="clear">
+            <a name="contact"><h2 class="title" id="con">Contact</h2></a>
             <p>Contact us at: contact@connectdesigns.com</p>
+            <p>If you are interested in working together, fill in the form below:</p>
+            <form>
+                <fieldset>
+                    <legend>Customer Contact Information</legend>
+                <label>Name: </label>
+                <input type="text" required><br/>
+                <label>E-mail: </label>
+                <input type="text" required><br/>
+                    <label>Type your message: </label><br/>
+                    <textarea required></textarea>
+                    <input type="submit" class="sub">
+                    </fieldset>
+            </form>
         </section>
         <footer>&reg;<i>Connect Designs</i></footer>
     </body>
